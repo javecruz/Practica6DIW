@@ -5,7 +5,7 @@
 <title>Practica 6e</title>
 <meta name="keywords" content="website template" />
 <meta name="description" content="Layout" />
-<link href="" rel="stylesheet" type="text/css" />
+<link href="practica6_1.css" rel="stylesheet" type="text/css" />
 <!--  Slimbox Credit Link | http://www.digitalia.be/software/slimbox2  -->
 <link rel="stylesheet" href="slimbox/slimbox2.css" type="text/css" media="screen" />
 <script type="text/javascript" src="slimbox/jquery.min.js"></script>
@@ -20,15 +20,27 @@ function clearText(field)
 </script>
 </head>
 <body>
-   
+    <div id="wrapper">
+        <div id="cabecera">
+            
+            <div id="logo">
             	<h1>Magazine Style</h1>
                 <h2>new way of thinking for your life</h2>
+            </div>
+
+
+                <div id="search">
            	  <a href="#"><img src="images/rss_icon_28x28.png" alt="RSS Feed" border="0" /></a>
+
+              
             	<form action="index.html" method="post">
     	            	<input type="text" value="Search" id="textfield" onfocus="clearText(this)" onblur="clearText(this)"/>
         	            <input type="submit" name="Search" value="Search" alt="Search" id="button" title="Search" />
-			  </form>
-                
+			     </form>
+              </div>
+
+
+                <div id="menu">
        		  		<ul>
 		                <li><a href="index.html"  class="current">Home</a></li>
         		        <li><a href="#">Articles</a></li>
@@ -37,11 +49,13 @@ function clearText(field)
         		        <li><a href="#">Useful Tips</a></li> 
                 		<li><a href="#">About Us</a></li>  
                         <li><a href="#">Contact</a></li>   
-              		</ul> 
-            
+              		</ul>
+                </div>
+
+        </div>   
 		
-   
-            
+            <div id="area_de_contenido">
+                <div id="left_section">
                	  <div >Post title one goes here</div>
                     <div >
 						<p><img alt="templatesfree" src="images/thumb_7.jpg" />This is a FREE CSS template provided by <a href="http://www.templatesfree.com" target="_parent">Free CSS Templates</a>. You may download, edit and use this template layout for your websites. Credits:  <a href="http://www.photovaco.com" target="_blank">Free Photos</a> for photos and <a href="http://www.digitalia.be/software/slimbox2" target="_blank">Digitalia.be</a> for slimbox2.</p> 						
@@ -88,9 +102,9 @@ function clearText(field)
                 </div>
 
             
-            
+            </div>
   
-            
+            <div id="middle_section">
             	<div>
                 	<h1>Categories</h1>
                 	<ul>
@@ -144,9 +158,9 @@ function clearText(field)
 				</ul>
                 </div>
             
-            
+            </div>          
          
-            
+            <div id="right_section">
             	<div>
                 	<h1>Popular Posts</h1>
                     <h2><a href="#">Quisque dictum pharetra neque</a></h2>
@@ -191,14 +205,21 @@ function clearText(field)
                 	<h1>Advertisement</h1>
                 	<a href="#"><img src="images/ads.jpg" alt="Advertisement" border="0" /></a>
                 </div>
-                
-  
+
+            </div>
+
+        </div>
             
 			<div class="cleaner_with_height">&nbsp;</div>
+
+    <div id="footer">
         <div>
         	Copyright © 2024 Your Company Name | Designed by <a href="http://www.templatesfree.com" target="_parent">Free CSS Templates</a>
         </div>
-      
+    </div>
+
+
+    </div>
 </body>
  
 </html>
