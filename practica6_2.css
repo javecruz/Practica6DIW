@@ -150,3 +150,54 @@ a:hover {
 
 		margin: 5px 0px 5px 0px;
 }
+
+.left_section_box{
+
+	margin: 0px 0px 15px 0px;
+}
+
+#box_contenido {
+
+	width: 380px;
+	padding: 0px 15px 0px 15px
+}
+
+#box_contenido img{
+
+	float: left;
+	border-style: none;
+	margin-bottom: 10px;
+	margin-right: 13px;
+	display: inline;
+}
+
+#box_cabecera {
+
+	width: 395px;
+	height: 20px;
+	background-image: url("images/section_box_top.jpg");
+	background-repeat: repeat-x; 
+	font-weight: bold;
+	font-size: 16px;
+	color: #666;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+.post{
+
+	margin-top: 25px;
+	color: #c60;
+	font-size: 11px;
+}
+
+.post a{
+
+	text-decoration: none;
+	color: #c60;
+}
+
+.post a:hover{
+
+	text-decoration: underline;
+}
