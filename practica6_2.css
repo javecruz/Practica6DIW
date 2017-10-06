@@ -1,0 +1,152 @@
+html {
+
+	background-color: #fff;
+}
+
+body {
+
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #333333;
+	width: 100%;
+	display: table;
+}
+
+
+a {
+
+	color: #333;
+}
+
+
+a:hover {
+
+	color: #666;
+
+}
+
+#wrapper {
+
+	margin:auto;
+	width: 950px;
+}
+
+#logo{
+
+	float: left;
+	width: 385px;
+	height: 55px;
+}
+
+#search{
+
+	float: right;
+	width: 320px;
+	height: 70px;
+}
+
+#cleaner {
+
+	clear: both;
+}
+
+#cleaner_with_height{
+
+	clear: both;
+}
+
+#area_de_contenido{
+
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+#left_section{
+	
+	
+	width: 410px;
+	float: left;
+}
+
+#middle_section{
+	margin: 15px 0px 0px 0px;
+	width: 180px;
+	float: left;
+}
+
+#right_section{
+	margin: 0px 10px 0px 0px;
+	width: 322px;
+	float: right;
+}
+
+
+.right_section_box{
+
+	margin: 0px 0px 15px 0px;
+	padding: 10px;
+	border:solid 1px;
+	color: #ccc;
+}
+
+.right_section_box h1 {
+
+	color: #c60;
+	text-decoration: underline;
+	font-size: 15px;
+	margin: 0x 0px 8px 0px;
+	padding: 0px;
+
+}
+
+.right_section_box h2 {
+
+	color: #333;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+
+}
+
+.right_section_box h2 a {
+
+	text-decoration: none;
+}
+
+
+.right_section_box h2 a:hover {
+
+	text-decoration: underline;
+}
+
+.right_section_box p {
+
+	color: #333;
+	text-align: justify;
+	font-size: 11px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+
+}
+
+.last {
+	margin: 0px;
+}
+
+#galeria {
+
+	margin-left: 5px;
+}
+
+#galeria img{
+
+	margin: 5px 5px 0px 0px;
+}
+
+#anuncio {
+
+		margin: 5px 0px 5px 0px;
+}
